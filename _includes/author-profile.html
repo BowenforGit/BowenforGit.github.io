@@ -1,6 +1,17 @@
 {% assign author = page.author | default: page.authors[0] | default: site.author %}
 {% assign author = site.data.authors[author] | default: author %}
 
+<head>
+<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Tangerine">
+<style>
+  body {
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+  }
+</style>
+</head>
+
 <div itemscope itemtype="https://schema.org/Person">
 
   {% if author.avatar %}
