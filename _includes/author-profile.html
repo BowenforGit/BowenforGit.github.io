@@ -1,6 +1,3 @@
-{% assign author = page.author | default: page.authors[0] | default: site.author %}
-{% assign author = site.data.authors[author] | default: author %}
-
 <head>
 <link rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Tangerine">
@@ -11,6 +8,10 @@
   }
 </style>
 </head>
+
+{% assign author = page.author | default: page.authors[0] | default: site.author %}
+{% assign author = site.data.authors[author] | default: author %}
+
 
 <div itemscope itemtype="https://schema.org/Person">
 

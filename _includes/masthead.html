@@ -1,9 +1,3 @@
-{% if site.logo contains "://" %}
-  {% capture logo_path %}{{ site.logo }}{% endcapture %}
-{% else %}
-  {% capture logo_path %}{{ site.logo }}{% endcapture %}
-{% endif %}
-
 <head>
 <link rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Tangerine">
@@ -14,6 +8,14 @@
   }
 </style>
 </head>
+
+{% if site.logo contains "://" %}
+  {% capture logo_path %}{{ site.logo }}{% endcapture %}
+{% else %}
+  {% capture logo_path %}{{ site.logo }}{% endcapture %}
+{% endif %}
+
+
 
 <div class="masthead" style="border-bottom: hidden;">
   <div class="masthead__inner-wrap">
