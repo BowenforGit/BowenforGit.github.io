@@ -9,14 +9,15 @@ In 2014, Amazon tried to use machine learning algorithms to review the resume an
 In 1973, UC Berkeley was sued for its gender bias against female applicants. From the statistics, the admission rate of female applicants is significantly lower than that of male applicants. See Table 1.
 
 <style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#9ABAD9;margin:0px auto;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 14px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#9ABAD9;color:#444;background-color:#EBF5FF;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 14px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#9ABAD9;color:#fff;background-color:#409cff;}
 .tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-f4iu{font-size:12px;border-color:inherit;text-align:center;vertical-align:top}
 </style>
 <table class="tg">
   <tr>
-    <th class="tg-c3ow"></th>
+    <th class="tg-f4iu"></th>
     <th class="tg-c3ow">Applicants</th>
     <th class="tg-c3ow">Admitted</th>
   </tr>
