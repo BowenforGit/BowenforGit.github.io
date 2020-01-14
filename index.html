@@ -58,29 +58,29 @@
 	        		</div>
 	        	</div>
 		        <div class="row">
-		        	<div class="ui top attached tabular menu" style="margin-left: 35px;">
-		        	  <a class="item active" id="bio-tab">
+		        	<div class="ui mini four item inverted menu" style="margin-left: 35px ! important; font-size: 13px;">
+		        	  <a class="teal item active" id="bio-tab">
 		        	    Bio
 		        	  </a>
-		        	  <a class="item" id="course-tab">
+		        	  <a class="orange item" id="course-tab">
 		        	    Courses
 		        	  </a>
-		        	  <a class="item">
+		        	  <a class="yellow item" id="research-tab">
 		        	    Research
 		        	  </a>
-		        	  <a class="item">
+		        	  <a class="olive item" id="post-tab">
 		        	    Posts
 		        	  </a>
-		        	  <div class="right menu">
+		        	  <!-- <div class="right menu">
 		        	    <div class="item">
 		        	      <div class="ui transparent icon input">
 		        	        <input type="text" placeholder="Search keywords...">
 		        	        <i class="search link icon"></i>
 		        	      </div>
 		        	    </div>
-		        	  </div>
+		        	  </div> -->
 		        	</div>
-		        	<div class="ui bottom attached segment" style="margin-left: 35px;" id="bio">
+		        	<div class="ui bottom segment" style="margin-left: 35px;" id="bio">
 		        	  <p style="text-align: justify;">I was born in Beijing and spent 18 years there before I spend most of my time in Hong Kong now. I graduated from High School Affliated to Renmin University of China in 2016 and was admitted to The Chinese University of Hong Kong in the same year. I study computer science and I am keen on conducting research. Below are my selected awards.</p>
 		        	  <ul class="ui list" style="text-align: left;">
 		        	  	<li>Arthur and Louis May Scholarship (Mar 2019)</li>
@@ -133,8 +133,7 @@
 		        	</div>
 
 
-		        	<div class="ui bottom attached segment" style="margin-left: 35px;" id="course">
-		        	  <!-- <p style="text-align: left;"><strong>Math and Statistics</strong></p> -->
+		        	<div class="ui bottom segment" style="margin-left: 35px;" id="course">
 		        	  <div class="ui equal width grid">
 		        	  	<div class="row">
 		        	  		<div class="column" style="text-align: left;">
@@ -192,6 +191,33 @@
 		        	    	</ul>
 		        	    </div>
 		        	  </div>
+		        	</div>
+
+		        	<div class="ui bottom segment" style="margin-left: 35px; text-align: left;" id="research">
+		        		<p>I have tried many different research directions and am still exploring my favorite ones.</p>
+		        		<p><strong>I. </strong>I started with studying large scale "similarity search" problem in my second year with Prof. <a href="https://www.cse.cuhk.edu.hk/~jcheng/" style="border-bottom: 1px dotted grey;"> James Cheng </a>where I learned advanced data structures like kd-tree, skip list, index etc and important big data algorithms, e.g., map-reduce, locality sensitive hashing, quantizaion and K-nearest graph. In addition to theories, I was trained to understand software systems (e.g., Faiss) and master various tools (e.g., cmake and HDFS).</p>
+
+		        		<p><strong>II. </strong>During my exchange period in ETH Zurich, apart from enjoying the picturesque Switzerland, I helped Prof. <a href="https://www.ds3lab.com/members/ce-zhang/" style="border-bottom: 1px dotted grey;">Ce Zhang</a> and <a href="https://people.inf.ethz.ch/kkara/" style="border-bottom: 1px dotted grey;">Kaan Kara</a> on their new stochastic gradient descend algorithm on database systems. I augmented their system to enable more efficient training, hyper-parameter tuning and profiling and most importantly, helped them understand the trade-offs between statistic efficiency and system efficiency.</p>
+
+		        		<p><strong>III. </strong>During the summer break in ETH, I flied to US and attended the summer research internship at Carnegie Mellon University. This internship is fully sponsored by the Charles K.Kao research scholarship. I, together with Prof. <a href="https://users.ece.cmu.edu/~pgrover/" style="border-bottom: 1px dotted grey;">Pulkit Grover</a>'s group, worked on personalization problem in machine learning. We studied how personalization can be properly achieved in face of "rabbit holes", bubbles that isolate people from different voices. We proposed a novel recommendation system based on our findings.</p>
+
+		        		<p><strong>IV. </strong>The most recent one is my thesis in OLAP graph database. I learned classical and popular graph computation and mining systems (e.g., Pregel, G-Miner and Arabseque) and understood different graph processing paradigms (e.g., vertex-centric vs. edge-centric vs. subgraph-centric, synchronous vs. asynchronous). I understood in-depth how existing commercial graph databases lack in more native data storage and adaptive parallelism. I am now working on improving an asynchronous, actor-model based graph processing and storage system, Grasper.</p>
+		        	  	<p style="text-align: left; font-size: 20px;"><strong>Publications</strong></p>
+		        	  	<ol class="ui list">
+		        	  			<li value="-"><strong>Bowen WU*</strong>, Chenyu Jiang*, Sanghamitra Dutta, Pulkit Grover, "Burst the Bubble: Debiasing Recommendation Systems While Allowing for Chosen Category Exemptions", to be submitted to ICML 2020.</li>
+		        	  			<br/>
+		        	  			<li value="-">Hongzhi Chen, <strong>Bowen WU</strong>, Shiyuan Deng, James Cheng, "High Performance Distributed OLAP over Property Graphs with Grasper", to be submitted to Sigmod demo track.</li>
+		        	  	</ol>
+		        	</div>
+
+		        	<div class="ui bottom segment" style="margin-left: 35px; text-align: left;" id="post">
+		        		<p>For some courses I take, I like to write down the problems that I came up with or fill up the missing details when reviewing the materials. Here are some. You are very welcome to leave some comments by emailing me!</p>
+		        	  	<p style="text-align: left; font-size: 14px;"><strong>Advanced Data Structures</strong></p>
+		        	  	<ol class="ui list">
+		        	  		<li value="-"><a href="https://www.cse.cuhk.edu.hk/~taoyf/course/5610/19-spring/" style="border-bottom: 1px dotted grey;">Course Website</a></li>
+		        	  		<li value="-"><a href="https://www.overleaf.com/read/wmtmttwgnfvr" style="border-bottom: 1px dotted grey;">My Notes</a></li>
+
+		        	  	</ol>
 
 		        	</div>
 		        </div>
@@ -206,21 +232,35 @@
 		$('#course').hide();
 		$('#research').hide();
 		$('#posts').hide();
-		$('#bio-tab').click(function(){
-			$('#course').hide();
-			$('#research').hide();
-			$('#posts').hide();
-			$('#bio').show();
-			$('#course-tab').removeClass('active')
-			$("#bio-tab").addClass('active')
+
+		var tab_ls = ["#bio-tab", "#course-tab", "#research-tab", "#post-tab"]
+		var content_ls = ["#bio", "#course", "#research", "#post"]
+
+		var show_or_hide = function(tab_id) {
+			for(var i = 0; i < tab_ls.length; i++) {
+				if(tab_ls[i] === tab_id) {
+					$(content_ls[i]).show();
+					$(tab_ls[i]).addClass('active');
+				}
+				else {
+					$(content_ls[i]).hide();
+					$(tab_ls[i]).removeClass('active');
+				}
+
+			}
+		}
+
+		$('#bio-tab').click(function() {
+			show_or_hide("#bio-tab");
 		});
-		$('#course-tab').click(function(){
-			$('#bio').hide();
-			$('#research').hide();
-			$('#posts').hide();
-			$('#course').show();
-			$('#bio-tab').removeClass('active')
-			$("#course-tab").addClass('active')
+		$('#course-tab').click(function() {
+			show_or_hide("#course-tab");
+		});
+		$('#research-tab').click(function() {
+			show_or_hide("#research-tab");
+		});
+		$('#post-tab').click(function() {
+			show_or_hide("#post-tab");
 		});
 	</script>
 </body>
